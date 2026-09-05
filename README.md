@@ -1,2 +1,80 @@
 # Projeto-FamigliaCafagni
-Projeto do pastifício FamigliaCafagni
+
+Descrição do projeto:
+
+O projeto Famiglia Cafagni contempla o desenvolvimento e a sugestão de compra de um software para uma pequena empresa de pastifício que enfrenta problemas com a gestão de pedidos dos clientes. Além disso, o desenvolvimento do sistema é justificado pela informalidade dos métodos atuais da empresa, como o uso do Whatsapp como principal meio de comunicação, e o elevado custo ou taxas para a compra ou a contratação, respectivamente, de um sistema ERP.
+
+
+Principais problemas:
+
+- Gerir os pedidos dos clientes
+- Lidar com clientes desonestos
+
+
+Solução:
+
+Desenvolvimento de um sistema de Ponto de Venda (PDV), onde o cliente realiza e controla seus pedidos e os administradores, que são os cozinheiros, recebem esses pedidos, os produzem e os repassam para a entrega.
+
+
+Tecnologias:
+
+- HTML5 e CSS3 (Penpot: Software de wireframe do Front-End)
+- C#
+- SQL server
+
+
+Banco de dados:
+
+Entidades:
+
+- Usuario 
+
+Entidade pai de cliente e administrador. Sua função é armazenar o id e o nome das pessoas.
+
+- Administrador
+
+Entidade que armazena o email do administrador que fez o pedido.
+
+- Clientes
+
+Entidade que armazena o logradouro, o telefone e o CEP do cliente.
+
+- Massas
+
+Entidade que armazena o id, nome, preço, tipo e o status da massa.
+
+Há dois tipo de massa: congelada e não congelada.
+
+- Caldos
+
+Entidade que armazena o id, nome e preço do caldo.
+
+O caldo pode ser comprado com a massa, mas deve estar junto à massa.
+
+- Recheios
+
+Entidade que armazena o id e o nome do recheio
+
+O recheio deve estar junto a massa, mas nem toda massa tem recheio.
+
+Observação: Os caldos ou recheios só podem estar em massas respectivas ás regras de negócio, ou seja, um caldo ou recheio da massa x pode ser inapropriado para massa y.
+
+- Pedidos
+
+Entidade que id, preço, data, status, data_agendada e tipo_entrega.
+
+o atributo data é a data e o tempo que foi realizado o pedido e data_agendada é a data que o cliente agendou o pedido.
+
+- Delivery
+
+Entidade que armazena id, frete, distancia e status.
+
+O atributo frete é uma coluna usada para calcular o preço líquido dos proprietários (preco - frete = receita_liquida_frete).
+
+- Pedidos_massas
+
+Entidade que armazena o subtotal da massa + caldo e a quantidade de massa e o caldo para um respectivo pedido.
+ 
+- Massas_caldos
+
+Entidade que armazena o preço do caldo e sua quantidade em respectiva massa.
