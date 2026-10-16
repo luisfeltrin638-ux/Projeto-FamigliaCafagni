@@ -2,7 +2,7 @@
 
 Descrição do projeto:
 
-O projeto Famiglia Cafagni contempla o desenvolvimento e a sugestão de compra de um software para uma pequena empresa de pastifício que enfrenta problemas com a gestão de pedidos dos clientes. Além disso, o desenvolvimento do sistema é justificado pela informalidade dos métodos atuais da empresa, como o uso do Whatsapp como principal meio de comunicação, e o elevado custo ou taxas para a compra ou a contratação, respectivamente, de um sistema ERP.
+O projeto Famiglia Cafagni contempla o desenvolvimento de um software para uma pequena empresa de pastifício que enfrenta problemas com a gestão de pedidos dos clientes. Além disso, o desenvolvimento do sistema é justificado pela informalidade dos métodos atuais da empresa, como o uso do Whatsapp como principal meio de comunicação, e o elevado custo ou taxas para a compra ou a contratação, respectivamente, de um sistema ERP.
 
 
 Principais problemas:
