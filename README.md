@@ -71,10 +71,20 @@ Entidade que armazena id, frete, distancia e status.
 
 O atributo frete é uma coluna usada para calcular o preço líquido dos proprietários (preco - frete = receita_liquida_frete).
 
-- Pedidos_massas
+- Itens_pedidos
 
-Entidade que armazena o subtotal da massa + caldo e a quantidade de massa e o caldo para um respectivo pedido.
- 
-- Massas_caldos
+Entidade que armazena id, pedido_id, id_massa, id_caldo e id_recheio, qtd_massa, qtd_caldo, um subtotal (calculado por valor_massa * qtd_massa + valor_caldo * qtd_caldo) do pedido.
 
-Entidade que armazena o preço do caldo e sua quantidade em respectiva massa.
+Tabela que agrega qual recheio e caldo estão em uma massa (N : N)
+
+- massa_caldo
+
+Entidade que armazena id_massa e id_caldo
+
+Usada para restringir quais caldos podem acompanhar uma massa
+
+- massa_recheio
+
+Entidade que armazena id_massa e id_recheio
+
+Usada para restringir quais recheios podem estar em uma massa
