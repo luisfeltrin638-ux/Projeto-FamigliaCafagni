@@ -29,9 +29,9 @@ Desenvolvimento de um sistema de Ponto de Venda (PDV), onde o cliente realiza e 
 
 - Administrador
 
-Controle de produtos
-Controle de pedidos
-Controle de trabalho
+Controle de produtos <br>
+Controle de pedidos <br>
+Controle de trabalho 
 
 - Cliente
 
@@ -42,7 +42,7 @@ Controle de pedidos
 
 
 | Entidade | Colunas | Observações |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | Usuario | <strong>id</strong> nome | Entidade pai de cliente e administrador. Sua função é armazenar o id e o nome das pessoas. |
 | Cliente | logradouro, telefone(UNIQUE), cep | - |
 | Administrador | senha | - |
