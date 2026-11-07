@@ -14,7 +14,7 @@ O projeto Famiglia Cafagni contempla o desenvolvimento de um software para uma p
 
 ## Solução:
 
-Desenvolvimento de um sistema de Ponto de Venda (PDV), onde o cliente realiza e controla seus pedidos e os administradores, que são os cozinheiros, recebem esses pedidos, os produzem e os repassam para a entrega.
+Desenvolvimento de um sistema de Ponto de Venda (PDV), onde o cliente realiza e controla seus pedidos e os administradores, que são os cozinheiros, recebem esses pedidos, produzem-nos e repassam-nos para a entrega.
 
 
 ## Tecnologias:
